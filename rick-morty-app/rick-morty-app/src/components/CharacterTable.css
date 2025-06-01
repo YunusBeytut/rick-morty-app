@@ -1,0 +1,42 @@
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.character-table th,
+.character-table td {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1rem;
+    text-align: left;
+}
+
+.character-table th {
+    background-color: #f8fafc;
+    color: #334155;
+    font-weight: 600;
+}
+
+.character-row:hover {
+    background-color: #e0f2fe;
+    cursor: pointer;
+}
+
+.character-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-row {
+    background-color: #f9fafb;
+}
+
+.card-row td {
+    padding: 1rem;
+    border: none;
+}
